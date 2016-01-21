@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6740713E15F451EF27D96256830E413A2B7C06D9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7953573C9A7B665E2CC90CF946FFB407E05E486B" : 0,
+    "6740713E15F451EF27D96256830E413A2B7C06D9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DE2E8F58-E446-4BD0-9CC9-E2E9A3A326FE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7953573C9A7B665E2CC90CF946FFB407E05E486B" : "",
+    "6740713E15F451EF27D96256830E413A2B7C06D9" : "LAVTutuSample\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LAVTutuSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LAVTutuSample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:andryuwka\/LAVTutuSample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6740713E15F451EF27D96256830E413A2B7C06D9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:andryuwka\/ALYandexTranslator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7953573C9A7B665E2CC90CF946FFB407E05E486B"
+    }
+  ]
+}

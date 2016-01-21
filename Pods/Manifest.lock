@@ -1,0 +1,22 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.0.4)
+  - AKPickerView (0.2.7)
+  - DMPickerView (0.1.0)
+  - HexColors (2.2.1)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 2.0.4)
+  - AKPickerView
+  - DMPickerView
+  - TSMessages
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 860466cb4a66854e6acb590071ecee404b48f49d
+  AKPickerView: 125372e36fcc372216127600a541f14dcdbb7993
+  DMPickerView: 2e8a2fe5990092a32f55926e991e7620f1f03e99
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" rowHeight="50" id="KGk-i7-Jjw" customClass="LAVCityCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="281" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cityTitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ed-e6-lKJ">
+                        <rect key="frame" x="8" y="12" width="131" height="35"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="countryTitle" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKc-hg-e89">
+                        <rect key="frame" x="143" y="12" width="130" height="35"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="jKc-hg-e89" secondAttribute="trailing" id="0Ui-k5-CdC"/>
+                    <constraint firstItem="2ed-e6-lKJ" firstAttribute="top" secondItem="jKc-hg-e89" secondAttribute="bottom" constant="-21" id="3h1-H8-Xen"/>
+                    <constraint firstItem="jKc-hg-e89" firstAttribute="width" secondItem="2ed-e6-lKJ" secondAttribute="width" id="Lka-5l-Pta"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="2ed-e6-lKJ" secondAttribute="bottom" constant="4" id="Ngj-A6-Vnv"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="2ed-e6-lKJ" secondAttribute="leading" id="bA8-dO-Spo"/>
+                    <constraint firstItem="2ed-e6-lKJ" firstAttribute="width" secondItem="jKc-hg-e89" secondAttribute="width" id="bao-JB-GnV"/>
+                    <constraint firstItem="2ed-e6-lKJ" firstAttribute="width" secondItem="jKc-hg-e89" secondAttribute="width" id="cdF-Mq-mFA"/>
+                    <constraint firstItem="jKc-hg-e89" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="ia1-dM-JLZ"/>
+                    <constraint firstItem="jKc-hg-e89" firstAttribute="leading" secondItem="2ed-e6-lKJ" secondAttribute="trailing" constant="4" id="j8c-8u-hFT"/>
+                    <constraint firstAttribute="trailing" secondItem="jKc-hg-e89" secondAttribute="trailing" constant="4" id="jGU-dV-kfw"/>
+                    <constraint firstItem="2ed-e6-lKJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="n13-lL-6HW"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="2ed-e6-lKJ" secondAttribute="leading" id="pqS-nz-Ug8"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="jKc-hg-e89" secondAttribute="bottom" constant="4" id="tNI-fD-Shn"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="3h1-H8-Xen"/>
+                        <exclude reference="bA8-dO-Spo"/>
+                        <exclude reference="bao-JB-GnV"/>
+                        <exclude reference="Lka-5l-Pta"/>
+                        <exclude reference="jGU-dV-kfw"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="labelCityTitle" destination="2ed-e6-lKJ" id="toh-Eq-SIg"/>
+                <outlet property="labelCountryTitle" destination="jKc-hg-e89" id="DBM-NP-dXO"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
