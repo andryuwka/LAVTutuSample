@@ -95,11 +95,11 @@
 }
 
 - (void)returnChosenStation {
-  if (self.isStationFrom) {
+  if (self.isStationFrom == -1) {
     [[NSNotificationCenter defaultCenter]
         postNotificationName:@"chosenStationFrom"
                       object:self.station];
-  } else {
+  } else if (self.isStationFrom == 1) {
     [[NSNotificationCenter defaultCenter]
         postNotificationName:@"chosenStationTo"
                       object:self.station];
